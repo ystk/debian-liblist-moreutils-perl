@@ -1,0 +1,20 @@
+Source: liblist-moreutils-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7.0.8), perl,
+ libtest-pod-perl, libtest-pod-coverage-perl, quilt (>= 0.46-7)
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Krzysztof Krzyzaniak (eloy) <eloy@debian.org>,
+ Damyan Ivanov <dmn@debian.org>, Ansgar Burchardt <ansgar@43-1.org>,
+ gregor herrmann <gregoa@debian.org>
+Standards-Version: 3.8.3
+Homepage: http://search.cpan.org/dist/List-MoreUtils/
+Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/liblist-moreutils-perl/
+Vcs-Browser: http://svn.debian.org/viewsvn/pkg-perl/trunk/liblist-moreutils-perl/
+
+Package: liblist-moreutils-perl
+Architecture: any
+Depends: ${perl:Depends}, ${shlibs:Depends}, ${misc:Depends}, 
+Description: Perl module with additional list functions not found in List::Util
+ List::MoreUtils provides some trivial but commonly needed functionality on 
+ lists which is not going to go into List::Util.
