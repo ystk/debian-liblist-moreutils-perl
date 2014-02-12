@@ -1,3 +1,2 @@
 version=3
-opts=uversionmangle=s/_/~/ \
-http://search.cpan.org/dist/List-MoreUtils/ .*/List-MoreUtils-v?(\d[\d._]*)\.tar\.gz
+http://search.cpan.org/dist/List-MoreUtils/ .*/List-MoreUtils-v?(\d[\d.]*)\.tar\.gz

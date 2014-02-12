@@ -1,3 +1,36 @@
+liblist-moreutils-perl (0.33-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+
+  [ Alessandro Ghedini ]
+  * New upstream release
+  * Bump compat level to 8
+  * Add myself to Uploaders
+
+ -- Alessandro Ghedini <al3xbio@gmail.com>  Mon, 08 Aug 2011 12:52:50 +0200
+
+liblist-moreutils-perl (0.32-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * Email change: Ansgar Burchardt -> ansgar@debian.org
+
+  [ Nicholas Bamber ]
+  * Added myself to Uploaders
+  * New upstream release (Closes: #608579, #608576, #608577)
+  * Removed patch related to memory leaks which appear to be fixed now
+  * Raised standards version to version to 3.9.2
+  * Added debian/source/format, refreshed rules and dependencies
+  * Refreshed copyright and extended description
+  * Installing scripts from #rt bug reports as examples
+  * Stopped watch file from picking up development releases
+
+ -- Nicholas Bamber <nicholas@periapt.co.uk>  Fri, 03 Jun 2011 20:47:29 +0100
+
 liblist-moreutils-perl (0.25~02-1) unstable; urgency=low
 
   * New upstream release (closes: #546632).
