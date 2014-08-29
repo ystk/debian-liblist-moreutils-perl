@@ -1,6 +1,6 @@
-Format-Specification: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?view=markup&pathrev=135
-Maintainer: Tassilo von Parseval <tassilo.von.parseval@rwth-aachen.de>
-Source: http://search.cpan.org/dist/List-MoreUtils/
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Contact: Tassilo von Parseval <tassilo.von.parseval@rwth-aachen.de>
+Source: https://metacpan.org/release/List-MoreUtils
 
 Files: *
 Copyright:

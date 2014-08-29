@@ -1,15 +1,14 @@
 Source: liblist-moreutils-perl
 Section: perl
 Priority: optional
-Build-Depends: debhelper (>= 8), perl
+Build-Depends: debhelper (>= 9.20120312~), perl
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Krzysztof Krzyzaniak (eloy) <eloy@debian.org>,
  Damyan Ivanov <dmn@debian.org>, Ansgar Burchardt <ansgar@debian.org>,
- gregor herrmann <gregoa@debian.org>, Nicholas Bamber <nicholas@periapt.co.uk>,
- Alessandro Ghedini <al3xbio@gmail.com>
-Standards-Version: 3.9.2
-Homepage: http://search.cpan.org/dist/List-MoreUtils/
-Vcs-Git: git://git.debian.org/pkg-perl/packages/liblist-moreutils-perl.git
+ gregor herrmann <gregoa@debian.org>, Alessandro Ghedini <ghedo@debian.org>
+Standards-Version: 3.9.5
+Homepage: https://metacpan.org/release/List-MoreUtils
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/liblist-moreutils-perl.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/liblist-moreutils-perl.git
 
 Package: liblist-moreutils-perl
